@@ -1,0 +1,167 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header personalizado */
+.navbar-custom {
+  background-color: #6cc04a;
+  padding: 0.8rem 1rem;
+  box-shadow: 0 7px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1030;
+  position: relative;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-custom .navbar-brand img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.navbar-custom .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background-color: #6cc04a;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+.hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.hero-text button {
+  background-color: #F5F5DC;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.hero-image img {
+  max-width: 85%;
+  height: auto;
+}
+
+/* Contador */
+.contador {
+  background-color: #A1887F;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.contador h2 {
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.tiempo div {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  min-width: 80px;
+}
+
+.tiempo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Info Feria */
+.info-feria {
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+.feria-detalles h3 {
+  color: #2b8e3f;
+}
+
+/* Emprendedores */
+.emprendedores {
+  background-color: #f2f2f2;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.emprendedores h4 {
+  color: #2b8e3f;
+}
+
+.logos img {
+  max-height: 50px;
+}
+
+/* Footer actualizado con Bootstrap */
+.footer {
+  background-color: #eeeeee;
+  padding: 2rem 1rem;
+  border-top: 2px solid #cccccc;
+}
+
+.footer-info h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-info p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-grupo {
+  background-color: #004466;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-grupo:hover {
+  background-color: #002f4d;
+}
+
+.footer-logo {
+  max-height: 60px;
+}
+
+.footer-bottom {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.mb-5{
+    margin-bottom: 5%;
+}
