@@ -48,10 +48,10 @@
   <section class="contador">
     <h2>PRÓXIMA FERIA EN:</h2>
     <div class="d-flex justify-content-center gap-3 flex-wrap tiempo" id="contador">
-      <div><span id="meses">--</span><div>MESES</div></div>
-      <div><span id="dias">--</span><div>DIAS</div></div>
-      <div><span id="horas">--</span><div>HORAS</div></div>
-      <div><span id="minutos">--</span><div>MINUTOS</div></div>
+      <div class="cuadro-contador"><span id="meses">--</span><div>MESES</div></div>
+      <div class="cuadro-contador"><span id="dias">--</span><div>DIAS</div></div>
+      <div class="cuadro-contador"><span id="horas">--</span><div>HORAS</div></div>
+      <div class="cuadro-contador"><span id="minutos">--</span><div>MINUTOS</div></div>
     </div>
   </section>
 
@@ -59,8 +59,8 @@
   <section class="info-feria">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-6">
-          <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.56235921382905%2C-34.65244578858212%2C-58.55984866619111%2C-34.65095643582097&amp;layer=mapnik&amp;marker=-34.651699924674034%2C-58.56110394001007" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=-34.651700&amp;mlon=-58.561104#map=19/-34.651701/-58.561104&amp;layers=N">Ver el mapa más grande</a></small>
+        <div class="col-md-6 mapa">
+          <iframe width="100%" height="100%" src="https://www.openstreetmap.org/export/embed.html?bbox=-58.56235921382905%2C-34.65244578858212%2C-58.55984866619111%2C-34.65095643582097&amp;layer=mapnik&amp;marker=-34.651699924674034%2C-58.56110394001007" style="border: 1px solid black"></iframe>
         </div>
         <div class="col-md-6 feria-detalles">
           <h3>FERIA “LOS VERDES”</h3>
@@ -77,7 +77,7 @@
   <section class="emprendedores mb-5">
     <div class="container">
       <h4>Emprendedores y productores de próxima feria:</h4>
-      <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap logos">
+      <div class="d-flex justify-content-center align-items-center gap-6 flex-wrap logos">
         <img src="src/img/2go.png" alt="Logo 1">
         <img src="src/img/eco.png" alt="Logo 2">
         <img src="src/img/lazarillo.png" alt="Logo 3">
