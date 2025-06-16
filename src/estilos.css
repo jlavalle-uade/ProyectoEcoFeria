@@ -195,3 +195,21 @@ body {
 .mapa{
     height: 300px;
 }
+
+.navbar-nav .nav-link {
+  color: #fafafa !important;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Sombra para el link activo */
+.navbar-nav .nav-link.active {
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
