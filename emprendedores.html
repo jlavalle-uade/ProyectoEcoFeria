@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emprendedores</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="src/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprendedores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/estilos.css">
 </head>
 <body>
-  <!-- Header -->
-  <nav class="navbar navbar-expand-lg navbar-custom">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        🌱
-        Eco
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
-          <li class="nav-item"><a class="nav-link" href="inscripciones.html">Inscripciones</a></li>
-          <li class="nav-item"><a class="nav-link active" href="emprendedores.html">Emprendedores</a></li>
-          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                🌱
+                Eco
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inscripciones.html">Inscripciones</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="emprendedores.html">Emprendedores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Principal -->
-  <main>
+    <main class="main-content">
+        <section class="emprendedores-content">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md-6 order-md-2 d-flex justify-content-center align-items-center">
+                        <img src="src/img/emprendedor_principal.png" alt="Grupo de Emprendedores" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <p>En cada edición de la feria, abrimos las puertas a nuevos emprendimientos con impacto social, ambiental o económico, apoyamos a quienes están dando sus primeros pasos en la creación de un ecosistema realmente sustentable. ¡Tenés un proyecto con impacto positivo? Vení y sé parte de un proyecto comunidad y conectá con personas que valoran lo que hacés.</p>
+                    </div>
+                </div>
 
-  </main>
+                <div class="row mb-5">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="src/img/emprendedor_secundario.png" alt="Emprendedor joven" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-6">
+                        <p>Algunos están con nosotros desde la primera edición. Son los que vieron crecer la feria y nosotros vimos crecer sus proyectos.</p>
+                        <p>Gracias a su constancia, compromiso y calidad, hoy son referentes dentro de nuestra comunidad de la feria. Su presencia no solo enriquece la feria, también inspiran a muchos otros. ¡Muchas gracias por ser parte de esta historia!</p>
+                    </div>
+                </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container d-flex flex-wrap justify-content-between align-items-center">
-      <div class="footer-info">
-        <h5>INTEGRANTES GRUPO 6</h5>
-        <p>Caratti Alejandro; Lavalle Javier; <br> Russo Guiot, Gabriel Marcelo</p>
-        <a class="btn-grupo" target="_blank" href="https://jlavalle-uade.github.io/FeriaSustentableGrupo6/">Sitio del grupo</a>
-      </div>
-      <div>
-        <img src="src/img/uade.png" alt="UADE" class="footer-logo">
-      </div>
-    </div>
-    <div class="footer-bottom">
-      Trabajo grupal - Materia Diseño y Desarrollo Web (número de curso y grupo)
-    </div>
-  </footer>  
+                 <h3 class="section-subtitle text-center mb-4">Los emprendedores destacados</h3>
+                <div class="highlighted-entrepreneurs mb-5">
+                    <div class="entrepreneur-card">
+                        <img src="src/img/logo-nevada (1).png" alt="Emprendedor Destacado 1" class="img-fluid entrepreneur-img">
+                        </div>
+                    <div class="entrepreneur-card">
+                        <img src="src/img/organic-logo-green-and-natural-product-icons-fresh-food-and-eco-product-logo-leaf-and-design-element-for-healthy-care-brand-identity-vector.jpg" alt="Emprendedor Destacado 2" class="img-fluid entrepreneur-img">
+                        </div>
+                </div>
+
+                <h3 class="section-subtitle text-center mb-4">Nuestros más recientes!</h3>
+                <div class="recent-news mb-5">
+                    <p>¿Sos emprendedor y tenés un proyecto con impacto positivo? En nuestra feria ecológica estamos siempre en busca de nuevos proyectos que compartan nuestros valores y aporten a la comunidad.</p>
+                    <p>Querés ser parte? Escribinos desde <a href="contacto.html">Contacto</a> y sumate a nuestro ecosistema de emprendedores. ¡Te estamos esperando!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <div class="footer-info">
+                <h5>INTEGRANTES GRUPO 6</h5>
+                <p>Caratti Alejandro; Lavalle Javier; <br> Russo Guiot, Gabriel Marcelo</p>
+                <a class="btn-grupo" target="_blank" href="https://jlavalle-uade.github.io/FeriaSustentableGrupo6/">Sitio del grupo</a>
+            </div>
+            <div>
+                <img src="src/img/uade.png" alt="UADE" class="footer-logo">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Trabajo grupal - Materia Diseño y Desarrollo Web (número de curso y grupo)
+        </div>
+    </footer>
 </body>
 </html>
